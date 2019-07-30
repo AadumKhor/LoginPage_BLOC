@@ -19,6 +19,7 @@ class _LoginState extends State<Login> with SingleTickerProviderStateMixin {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      resizeToAvoidBottomInset: false,
       body: Padding(
         padding: EdgeInsets.only(top: 25.0, left: 10.0, right: 10.0),
         child: Column(
